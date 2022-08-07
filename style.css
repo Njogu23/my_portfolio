@@ -4,16 +4,18 @@
     box-sizing: border-box;
   }
 
-body {
-   background-image: url(./image/kanairo.png);
+body{
+  background-image: url(./image/kanairo.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size:cover;
+}
+header{
+  font-family: 'Courier New', Courier, monospace;
 }
 
-header {
+div#navBar {
   text-align: center;
-  padding: 2rem;
+  margin: 25px 25px;
 }
 
 div a {
@@ -22,14 +24,52 @@ div a {
   transition: all 0.3s ease 0s;
   color: rgb(16, 17, 17);
   text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 2rem 3rem;
+  padding:25px 25px;
 }
 
 a:hover {
   color: rgb(237, 229, 229);
 }
-  
+
+div h1 {
+  font-size:70px;
+  padding-top: 100px;
+  color:aquamarine
+}
+
+div h1 em {
+  color:rgb(247, 214, 131);
+}
+div#profile {
+  text-align: center;
+  padding-top: 50px;
+}
+
+div#profile p {
+  font-size: xx-large;
+  padding-top: 50px;
+  color:azure;
+}
+
+div#icons {
+  text-align: center;
+  color: rgb(44, 195, 72);
+  padding: 25px;
+}
+
+i.material-icons a {
+  color: greenyellow;
+  transition: all 0.3s ease 0s;
+}
+
+i.material-icons a:hover {
+  color: red;
+
+}
+
+
+
+
 
 
   
