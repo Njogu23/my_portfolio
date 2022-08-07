@@ -1,12 +1,35 @@
 * {
     margin: 0;
     padding: 0;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
 
-img[alt='nairobiCity'] {
-    height: 670px;
-    width: 100%;
+body {
+   background-image: url(./image/kanairo.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+div a {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  color: rgb(16, 17, 17);
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2rem 3rem;
+}
+
+a:hover {
+  color: rgb(237, 229, 229);
+}
+  
+
+
+  
