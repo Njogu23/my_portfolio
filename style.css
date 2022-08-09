@@ -87,25 +87,30 @@ div#button {
 
 button {
   font-size: 30px;
-  border: none;
+  color: aqua;
+  border:1rem;
   border-radius: 5px;
   color: whitesmoke;
-  background-color:rgb(58, 71, 38);
+  background-color:black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 button:hover {
-  background-color: rgb(18, 17, 16);
-  
+  background-color:gold;
+  color: black;
+
 }
-
-
 
 div#about {
   text-align: center;
   color: white;
-  background-color:rgb(26, 24, 24);
+  background-color:burlywood;
   height: 400px;
   padding: 2rem;
+  background-image: url(./image/desk.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+ 
 }
 div#about h1 {
   padding-top: 2rem;
@@ -121,9 +126,16 @@ div#text {
 }
 
 div#text p {
-  background-color: rgb(12, 10, 10);
+  background-color: rgb(12, 12, 10);
   opacity: .8;
+  
 }
+
+div#about img {
+  border-style: groove;
+}
+
+
 
 
 
