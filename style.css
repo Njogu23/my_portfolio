@@ -104,35 +104,45 @@ button:hover {
 div#about {
   text-align: center;
   color: white;
-  background-color:burlywood;
-  height: 400px;
+  height: 750px;
   padding: 2rem;
-  background-image: url(./image/desk.jpg);
-  background-repeat: no-repeat;
-  background-size:100%;
- 
+  background-color: rgb(13, 3, 3);
+  align-items: center;
 }
+
 div#about h1 {
   padding-top: 2rem;
   color:white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-div#text {
-  font-size: larger;
-  align-items: center;
-  padding-right: 40%;
-  padding-left: 40%;
-}
-
-div#text p {
-  background-color: rgb(12, 12, 10);
-  opacity: .8;
   
 }
 
-div#about img {
+div.flex{
+  font-size: larger;
+  align-items: center;
+  display: flex;
+ 
+  justify-content: space-around;
+}
+
+div.flex p {
+  background-color: rgb(12, 12, 10);
+  opacity: .8;
+  width: 550px;
+  
+}
+
+div.flex img {
   border-style: groove;
+  height: auto;
+  width: 450px;
+  opacity: .5;
+}
+
+div.flex p a {
+  color: antiquewhite;
+  font-style: oblique;
+  border-bottom: none;
 }
 
 
