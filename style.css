@@ -67,11 +67,11 @@ div#icons {
 }
 
 i.material-icons a {
-  color: greenyellow;
+  color: yellow;
   transition: all 0.3s ease 0s;
   justify-content: space-around;
   padding: 30px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 i.material-icons a:hover {
@@ -94,7 +94,7 @@ button {
   border:1rem;
   border-radius: 5px;
   color: whitesmoke;
-  background-color:black;
+  background-color:rgb(16, 15, 14);
   font-family: 'Courier New', Courier, monospace;
 }
 
