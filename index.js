@@ -1,17 +1,20 @@
 const nav = document.querySelectorAll('.nav');
 
 function navMouseOver(){
-   nav.addEventListener('mouseover', function(){
-      nav.style.background = 'gold';
-   })
+   for(let i = 0; i < nav.length; i++){
+   nav[i].addEventListener('mouseover', function(){
+      nav[i].style.background = 'gold';
+   });}
 }
 navMouseOver();
 
 function navMouseLeave(){
-   nav.addEventListener('mouseleave', function(){
-      nav.style.background = 'none';
+   for(let i = 0; i < nav.length; i++)
+   nav[i].addEventListener('mouseleave', function(){
+      nav[i].style.background = 'none';
    })
 }
 navMouseLeave();
+
 
 
